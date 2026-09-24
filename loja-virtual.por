@@ -243,5 +243,29 @@ Quantidade atualizada com sucesso!
               estoque_prod3 = estoque_prod3 - qtd_carrinho_prod3
               escreva("
 
+
+    escreva ("quantidade invalida ou acima do estoque disponivel!")
+
+  }
+
+}
+
+senao {
+  escreva("opção invalida!")
+
+}
+
+escreva("pressione ENTER para voltar ao menu...")
+leia(tecla_pausa)
+pare
+
+// ======================================================
+// D - DELETE (Remover Item do Carrrinho)
+// ======================================================
+caso 4:
+
+    
+
+
   }
 }
