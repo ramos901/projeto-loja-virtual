@@ -353,5 +353,21 @@ escreva (" 2. Cartão de Crédito (Valor normal)")
       escreva("--- FORMA DE PAGAMENTO ---")
       escreva("1. Pagamento via PIX (10% de desconto)")
       escreva("2. Cartão de Crédito (valor normal)")
+
+      escreva("escolha a forma de pagamento")
+    leia(opcao_pagamento)
+   escolha(opcao_pagamento)
+   {
+        caso 1:
+              valor_desconto= valor_total_bruto*0.10
+              valor_final=valor_total_bruto_valor_desconto
+                pare
+        
+          caso 2:
+              valor_desconto= 0.0
+              valor_final=valor_total_bruto_
+          pare
+          caso contrario:
+                escreva("opacao inavalida processando o valornormal")
   }
 }
