@@ -389,6 +389,28 @@ escreva (" 2. Cartão de Crédito (Valor normal)")
             se (qtd_carrinho_prod1 > 0) {
                escreva("- ", qtd_carrinho_prod1, "x Camisa Esportiva = R$ ",(qtd_carrinho_p)
 
+ }
+  se (qtd_carrinho_prod2 > 0) {
+    escreva("-", qtd_carrinho_prod3, "x Tenis de corrida = R$ ", (qtd_carrinho_prod3)")
+  }
+
+  escreva("--------------------------------------")
+
+  escreva(" valor total bruto: R$ ", valor_total_bruto," ")
+
+  escreva("Desconto aplicado: R$ ", valor_deconto,"")
+
+  escreva("valor final a pagar: R$ ", valor_final, " ")
+
+  escreva("=======================================")
+
+  escreva(" Obrigado por comprar conosco!")
+
+}
+senao
+{
+
+  escreva("Carrinho vazio. Compra cancelada.")
 
   }
 }
